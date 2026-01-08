@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo -n "Enter first number: "
-read num1
+read a
 
 echo -n "Enter second number: "
-read num2
+read b
 
-sum=$((num1 + num2))
+sum=$((a + b))
 
-echo "The sum of $num1 and $num2 is: $sum"
+echo "The sum of $a and $b is: $sum"
 fi
